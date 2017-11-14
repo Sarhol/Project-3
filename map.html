@@ -3,55 +3,57 @@
   <head>
     <style>
       #map {
-        height: 400px;
-        width: 100%;
+        height: 500px;
+        width: 75%;
        }
     </style>
   </head>
   <body>
-    <h3>My Google Maps Demo</h3>
+    <h3>Places I visited this summer.</h3>
     <div id="map"></div>
     <script>
       function initMap() {
         var LatLng1 = {lat: 35.034547, lng: 135.718178};
-        var LatLng2 = {lat: 35.034547, lng: 135.718178};
+        var LatLng2 = {lat: 34.392814, lng: 132.452542};
         var LatLng3 = {lat: 35.039458, lng: 135.729222};
         var LatLng4 = {lat: 35.027074, lng: 135.798206};
         var LatLng5 = {lat: 34.687333, lng: 135.526158};
         var LatLng6 = {lat: 34.685012, lng: 135.843033};
         var kyoto = {lat: 35.0116, lng: 135.7680};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 8,
+          zoom: 6,
           center: kyoto,
         });
         var marker = new google.maps.Marker({
             position: LatLng1,
             map: map,
-            title:"Hello World!"
+            title:"Ryoanji"
+            
         });  
           var marker2 = new google.maps.Marker({
             position: LatLng2,
             map: map,
-             title:"Hello Word!"
+             title:"Hiroshima memorial peace park"
         });  
             var marker3 = new google.maps.Marker({
             position: LatLng3,
             map: map,
-             title:"Heo World!"
+             title:"Kinkakuji"
         });  
            var marker4 = new google.maps.Marker({
             position: LatLng4,
             map: map,
-             title:"Hello Word"
+             title:"Ginkakuji"
         });  
              var marker5 = new google.maps.Marker({
             position: LatLng5,
             map: map,
-             title:"Hello World!"
+             title:"Osaka Castle"
         });  
              var marker6 = new google.maps.Marker({
             position: LatLng6,
-            map: map
+            map: map,
+            title:"Nara deer park / Todaiji temple"
         });  
       }
     </script>

@@ -1,0 +1,221 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+margin : 0;
+padding : 0;
+border : 0;
+font-size : 100%;
+font : inherit;
+vertical-align : baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display : block;
+}
+body {
+line-height : 1;
+}
+ol, ul {
+list-style : none;
+}
+blockquote, q {
+quotes : none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+content : '';
+content : none;
+}
+table {
+border-collapse : collapse;
+border-spacing : 0;
+}
+*   {box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin:20px;
+}
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.row2:after {
+     content: "";
+    display: table;
+    clear: both;
+}
+
+#Menu ul 
+{
+  list-style: none;
+  padding: 0;
+  width: 400px;
+  margin: 0 auto;
+}
+#Menu li {
+  float: left;
+  margin: 0 1.15em;
+}
+
+#Menu {
+  text-align: center;
+  background-color: #6A7348;
+  color : #B4C2BF;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+#Menu a {
+    color : #B4C2BF;
+    text-align : center;
+    padding : 12px 14px;
+    }
+#Menu a:hover {
+    background-color : #41511F;
+    }
+body {
+    background-color : #9AA898;
+    margin:20px;
+    line-height: normal;
+    }
+#Koda {
+     width: 300px;
+    height: auto;
+    margin : 1.3em auto;
+    }
+#TJ {
+    display : block;
+    margin : 1.3em auto;
+     width: 300px;
+    height: auto;
+    }
+#Chelsea {
+    display : block;
+    margin : 1.3em auto;
+     width: 300px; 
+    height: auto;
+    }
+#about {
+    left : 50px;
+    top : 50px;
+    text-align : center;
+    }
+#about h1 {
+    font-weight : bolder;
+    font-size : 20px;
+    padding : 10px;
+    }
+#about h2 {
+    font-weight : bold;
+    font-size : 20px;
+    }
+#about p {
+    font-family : sans-serif;
+    padding-bottom : 20px;
+    padding-left : 20px;
+    margin-left : 20px;
+    margin-right : 20px;
+    margin-bottom : 15px;
+    font-size : 15px;
+    text-align : left;
+    }
+.list {
+    width : 30%;
+    padding : 20px;
+    margin : 20px;
+    text-align : center;
+    }
+.list h2 {
+    font-weight : bolder;
+    font-size : 30px;
+    text-align : center;
+    }
+.list h2 {
+    font-weight : bold;
+    font-size : 25px;
+    text-align : center;
+    }
+.list p {
+    font-weight : 500;
+    font-size : 20px;
+    text-align : center;
+}
+.list ul {
+    list-style-type : square;
+}
+.list ol {
+    list-style-type : upper-roman;
+}
+#recipe p {
+    font-family : sans-serif;
+    margin-left : 100px;
+    margin-right : 25px;
+    margin-bottom : 25px;
+    font-size : 15px;
+}
+#recipe h1 {
+    font-weight : 800;
+    font-size : 20px;
+}
+#temblique{
+    float:right;
+    position: relative;
+    top: -400px;
+    margin-right: 150px;
+    border-style:outset;
+    border-width: 5px;
+    border-color: darkkhaki;
+}
+#Resume h2 {
+    font-weight : bold;
+    font-size : 25px;
+    text-align : center;
+    margin: 25px;
+}
+#Resume p {
+    font-family : sans-serif;
+    margin-right : 25px;
+    margin-bottom : 25px;
+    font-size : 15px;
+    text-align : center;
+}
+#education h2 {
+    font-weight : bold;
+    font-size : 25px;
+    text-align : center;
+}
+#education h3 {
+    font-weight : 600;
+    font-size : 20px;
+    text-align : center;
+}
+#education p {
+   font-family : sans-serif;
+    margin-left : 100px;
+    margin-right : 25px;
+    margin-bottom : 25px;
+    font-size : 15px;
+    text-align : center;
+}
+
+.skilllist ul {
+  list-style-type : square;
+  display: inline-block;
+}
+.skills{
+    text-align: center;
+    margin: 25px;
+    
+}
+.skills ul{
+    display: inline-table;
+}
+.skills h2{
+    font-weight: bold;
+    font-size: 25px;
+}
+

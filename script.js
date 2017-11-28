@@ -7,6 +7,12 @@
         var LatLng5 = {lat: 34.687333, lng: 135.526158};
         var LatLng6 = {lat: 34.685012, lng: 135.843033};
         var kyoto = {lat: 35.0116, lng: 135.7680};  
+        var Ryoanji = 'Ryoanji rock garden'
+        var kinkakuji = 'kinkakuji (Golden pavilion)'
+        var Hiroshima = 'Hiroshima peace park & museum'
+        var Osaka = 'Osaka castle'
+        var Nara = 'Todaiji temple'
+        var gin = 'Ginkakuji (Silver pavilion)'
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 6,
           center: kyoto,
@@ -16,7 +22,7 @@
             map: map,
             title:"Ryoanji",
             icon: 'pin.png',
-            content: "Ryoanji rock garden",
+            content: Ryoanji,
             
         });  
           var marker2 = new google.maps.Marker({
@@ -24,35 +30,35 @@
             map: map,
              title:"Hiroshima memorial peace park",
             icon: 'pin.png',
-            content: "Ryoanji rock garden",
+            content: Hiroshima,
         });  
             var marker3 = new google.maps.Marker({
             position: LatLng3,
             map: map,
             title:"Kinkakuji",
             icon: 'pin.png',
-            content: "Ryoanji rock garden",
+            content: kinkakuji,
         });  
            var marker4 = new google.maps.Marker({
             position: LatLng4,
             map: map,
              title:"Ginkakuji",
              icon: 'pin.png',
-            content: "Ryoanji rock garden"
+            content: gin,
         });  
              var marker5 = new google.maps.Marker({
             position: LatLng5,
             map: map,
              title:"Osaka Castle",
              icon: 'pin.png',
-            content: "Ryoanji rock garden"
+            content: Osaka,
         });  
              var marker6 = new google.maps.Marker({
             position: LatLng6,
             map: map,
             title:"Nara deer park / Todaiji temple",
             icon: 'pin.png',
-            content: "Ryoanji rock garden"
+            content: Nara,
         });  
       }
  

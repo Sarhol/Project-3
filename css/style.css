@@ -145,18 +145,22 @@ body {
     margin-bottom: 25%;
     
 }
-#map h1{
+#travel h1{
     font-weight : 800;
     font-size : 20px;
     padding: 15px;
 }
-#map h2{
+#travel h2{
     font-weight : bold;
     font-size : 25px;
     text-align : center;
     margin: 25px;
     padding: 15px;
-    
+}
+#travel ul{
+     width : 30%;
+    padding : 20px;
+    margin : 20px;
 }
 #Resume h2 {
     font-weight : bold;
@@ -191,8 +195,7 @@ body {
 }
 
 .skilllist ul {
-  list-style-type : square;
-  display: inline-block;
+  display:inline;
 }
 .skills{
     text-align: center;
@@ -200,7 +203,7 @@ body {
     
 }
 .skills ul{
-    display: inline-table;
+    display:inline-table;
 }
 .skills h2{
     font-weight: bold;

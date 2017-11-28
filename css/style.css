@@ -144,6 +144,17 @@ body {
     border-width: 5px;
     border-color: darkkhaki;
 }
+#map h1{
+    font-weight : 800;
+    font-size : 20px;
+}
+#map h2{
+    font-weight : bold;
+    font-size : 25px;
+    text-align : center;
+    margin: 25px;
+    
+}
 #Resume h2 {
     font-weight : bold;
     font-size : 25px;
@@ -235,7 +246,6 @@ body {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
      width: 100%;
     float: left;

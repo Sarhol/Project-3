@@ -17,12 +17,15 @@
           zoom: 6,
           center: kyoto,
         });
+           var info = new google.maps.InfoWindow({
+      content: Ryoanji,
+    position:LatLng1,
+});
         var marker = new google.maps.Marker({
             position: LatLng1,
             map: map,
             title:"Ryoanji",
             icon: 'pin.png',
-            content: Ryoanji,
             
         });  
           var marker2 = new google.maps.Marker({
@@ -59,7 +62,13 @@
             title:"Nara deer park / Todaiji temple",
             icon: 'pin.png',
             content: Nara,
-        });  
+        });
+          
+         google.maps.event.addListener(marker, 'click', function(){
+      info.open(map, marker);
+      info1.open(map, marker1);
+});
+});
       }
  
    

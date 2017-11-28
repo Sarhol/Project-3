@@ -128,7 +128,6 @@ body {
     font-family : sans-serif;
     margin-left : 100px;
     margin-right : 25px;
-    margin-bottom : 25px;
     font-size : 15px;
 }
 #recipe h1 {
@@ -136,23 +135,27 @@ body {
     font-size : 20px;
 }
 #temblique{
-    float:right;
-    position: relative;
-    top: -400px;
+    float: right;
     margin-right: 150px;
     border-style:outset;
     border-width: 5px;
     border-color: darkkhaki;
+    width: 25%;
+    height: 25%;
+    margin-bottom: 25%;
+    
 }
 #map h1{
     font-weight : 800;
     font-size : 20px;
+    padding: 15px;
 }
 #map h2{
     font-weight : bold;
     font-size : 25px;
     text-align : center;
     margin: 25px;
+    padding: 15px;
     
 }
 #Resume h2 {

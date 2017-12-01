@@ -31,7 +31,6 @@ border-spacing : 0;
 .column {
     float: left;
     width: 50%;
-    padding: 10px;
 }
 .row:after {
     content: "";

@@ -127,7 +127,6 @@ body {
 #recipe p {
     font-family : sans-serif;
     margin-left : 100px;
-    margin-right : 10px;
     font-size : 15px;
 }
 #recipe h1 {
@@ -141,7 +140,6 @@ body {
     border-color: darkkhaki;
     width: 25%;
     height: 25%;
-    margin-bottom: 25%;
     
 }
 #travel h1{

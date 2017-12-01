@@ -127,7 +127,7 @@ body {
 #recipe p {
     font-family : sans-serif;
     margin-left : 100px;
-    margin-right : 25px;
+    margin-right : 10px;
     font-size : 15px;
 }
 #recipe h1 {
@@ -136,7 +136,6 @@ body {
 }
 #temblique{
     float: right;
-    margin-right: 150px;
     border-style:outset;
     border-width: 5px;
     border-color: darkkhaki;
